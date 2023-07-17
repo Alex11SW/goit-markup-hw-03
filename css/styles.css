@@ -101,6 +101,7 @@ img {
 }
 .text-list-item {
   color: var(--navyblue);
+  padding: 24px 0;
 }
 
 .text-add {
@@ -115,7 +116,6 @@ img {
   color: var(--slate, #434455);
   text-decoration: none;
   margin: 0%;
-  margin-left: 332px;
 }
 .adres-item {
   font-size: 16px;
