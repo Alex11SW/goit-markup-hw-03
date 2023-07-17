@@ -8,6 +8,18 @@
 }
 /*--------------------------------Main Page------------------------*/
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0%;
+}
+ul > li {
+  margin: 0%;
+  padding-left: 0%;
+}
+
 .link {
   text-decoration: none;
   margin-right: 0%;
