@@ -28,6 +28,12 @@ body {
 
   border-bottom: 1px solid #e7e9fc;
   margin: 0%;
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 img {
   display: block;
@@ -91,6 +97,7 @@ img {
   gap: 40px;
   flex-shrink: 0;
   margin: 0%;
+  padding: 24px 0;
 }
 .text-list-item {
   color: var(--navyblue);
@@ -107,6 +114,8 @@ img {
   text-align: center;
   color: var(--slate, #434455);
   text-decoration: none;
+  margin: 0%;
+  margin-left: 332px;
 }
 .adres-item {
   font-size: 16px;
@@ -121,6 +130,13 @@ img {
   align-items: center;
   flex-shrink: 0;
   margin-left: 0%;
+  gap: 40px;
+}
+.text-add-item {
+  margin-right: 40px;
+}
+.text-add-iteme {
+  margin-right: 0%;
 }
 .adres-item:hover {
   color: #404bbf;
