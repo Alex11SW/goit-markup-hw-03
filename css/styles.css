@@ -36,6 +36,10 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--iris, #4d5ae5);
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
 }
 .logo-web {
   justify-content: center;
@@ -45,6 +49,13 @@ body {
   list-style: none;
 
   text-decoration: none;
+
+  display: flex;
+  width: 1440px;
+  height: 72px;
+
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .text-list {
