@@ -34,7 +34,7 @@ body {
   background-color: #fff;
 }
 /*----------------------------------header-----------------------*/
-.top-line {
+.top-line {/*
   display: flex;
   width: 1440px;
   height: 72px;
@@ -42,19 +42,21 @@ body {
   justify-content: center;
   flex-shrink: 0;
 
-  /*
+ */
   
   text-align: center;
   border-bottom: 1px solid #e7e9fc;
   margin: 0%;
-  */
+  margin: 0% auto;
+  
 }
 img {
   display: block;
 }
 .top-line-div {
-  /* display: flex;
-  margin: 0%;*/
+   display: flex;
+  
+  
 }
 .container {
   width: 100%;
@@ -73,13 +75,15 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--iris, #4d5ae5);
-
+/*
   display: inline-flex;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
 
-  margin-right: 76px;
+  margin-right: 76px;*/
+  padding: 24px 76px 24px 156px;
+
 }
 .logo-web {
   justify-content: center;
@@ -88,13 +92,17 @@ img {
 .liste {
   list-style: none;
   text-decoration: none;
-  /*
+  align-items: center;
+  
   display: flex;
+  /*
   width: 1440px;
   height: 72px;
-  align-items: center;
   flex-shrink: 0;
   margin: 0%;
+  */
+
+  
   */
 }
 
@@ -111,15 +119,17 @@ img {
 
   display: flex;
   height: 48px;
+  
   align-items: flex-start;
   gap: 40px;
   flex-shrink: 0;
-  margin: 0%;
-  padding: 24px 0;
+  
+ 
 }
 .text-list-item {
   color: var(--navyblue);
-  padding: 24px 0;
+  padding: auto 0%;
+  
 }
 
 .text-add {
@@ -129,24 +139,28 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+/*
   text-align: center;
+  */
   color: var(--slate, #434455);
   text-decoration: none;
-  margin: 0%;
+  box-sizing: border-box;
+ 
 }
 .adres-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-
   display: flex;
+
+ /*
   width: 153px;
   height: 24px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  */
   margin-left: 0%;
   gap: 40px;
 }
