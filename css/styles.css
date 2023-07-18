@@ -80,9 +80,9 @@ img {
   height: 24px;
   align-items: center;
   flex-shrink: 0;
-
-  margin-right: 76px;*/
-  padding: 24px 76px 24px 156px;
+*/
+  margin-right: 76px;
+  
 
 }
 .logo-web {
@@ -128,7 +128,7 @@ img {
 }
 .text-list-item {
   color: var(--navyblue);
-  padding: auto 0%;
+  padding: 24px 0;
   
 }
 
