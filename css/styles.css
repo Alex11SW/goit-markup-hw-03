@@ -236,8 +236,9 @@ img {
   justify-content: center;
   display:flex;
   gap: 24px;
+  
 }
-.hidden{
+
   .visually-hidden{
    
       position: absolute;
@@ -253,11 +254,12 @@ img {
       overflow: hidden;
     
   }
-}
-.feature-text {
+
+.feature-text{
   width: calc((100% - 72px) / 4); 
   
 }
+
 .feature-strong {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
