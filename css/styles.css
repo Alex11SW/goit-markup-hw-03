@@ -199,6 +199,7 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 48px;
 }
 
 
@@ -225,14 +226,37 @@ img {
   background-color: #404bbf;
 }
 .feature {
+  padding: 120px 0;
+
 }
 .list {
   list-style: none;
 }
 .feature-ul {
   justify-content: center;
+  display:flex;
+  gap: 24px;
+}
+.hidden{
+  .visually-hidden{
+   
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+    
+  }
 }
 .feature-text {
+  width: calc((100% - 72px) / 4); 
+  
 }
 .feature-strong {
   color: var(--navyblue, #2e2f42);
@@ -241,6 +265,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .feature-lowtext {
   color: var(--slate, #434455);
