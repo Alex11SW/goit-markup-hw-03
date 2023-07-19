@@ -40,6 +40,11 @@ body {
   margin: 0% auto;
 }
 /*----------------------------------header-----------------------*/
+/*--------------------------section----------------------------*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .top-line {
   display: flex;
   width: 1440px;
@@ -61,7 +66,7 @@ img {
 }
 .container {
   width: 100%;
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 
@@ -93,7 +98,6 @@ img {
   list-style: none;
   text-decoration: none;
   align-items: center;
-
   display: flex;
   /*
   width: 1440px;
@@ -192,6 +196,7 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+
   padding-bottom: 48px;
 }
 
@@ -217,6 +222,7 @@ img {
 .hero-buttom:focus {
   background-color: #404bbf;
 }
+/*-----------------------------------section-2----------------------------*/
 .feature {
   padding: 120px 0;
 }
@@ -265,6 +271,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*-----------------------------------section-3----------------------------*/
 .doin {
   text-align: center;
   padding-bottom: 120px;
@@ -308,10 +315,11 @@ img {
   border: 1px solid var(--cornflower, #e7e9fc);
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+/*----------------------------------------------section-4----------------------------*/
 .team {
   justify-content: center;
-
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-text {
   color: var(--navyblue, #2e2f42);
@@ -322,28 +330,25 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .team-item {
   justify-content: center;
-
   background: var(--white, #fff);
-}
-.team-item-two {
-  background: var(--white, #fff);
-}
-.team-item-fhree {
-  justify-content: center;
-
-  background: var(--white, #fff);
-}
-.team-item-four {
-  justify-content: center;
-
-  background: var(--white, #fff);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-div {
   justify-content: center;
+}
+.team-twodiv {
+  padding: 32px 0;
 }
 .team-title {
   color: var(--navyblue, #2e2f42);
@@ -353,6 +358,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-desc {
   color: var(--slate, #434455);
@@ -363,7 +369,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*---------------------------------footer---------------------------------*/
+/*------------------------------------------footer---------------------------------*/
 .foote {
   background-color: var(--navyblue, #2e2f42);
 }
@@ -496,7 +502,7 @@ img {
 .foo-mail:focus {
   color: #404bbf;
 }
-/*------------------------------main------------------------------------------*/
+/*-------------------------------------------------main------------------------------------------*/
 .butt-list {
 }
 .butt-item {
