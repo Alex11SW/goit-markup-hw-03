@@ -32,18 +32,16 @@ body {
   font-weight: 500;
   line-height: 1.5;
   background-color: #fff;
+  margin: 0% auto;
 }
 /*----------------------------------header-----------------------*/
 .top-line {
-  /*
   display: flex;
   width: 1440px;
   height: 72px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-
- */
 
   text-align: center;
   border-bottom: 1px solid #e7e9fc;
@@ -61,6 +59,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+
   outline: 2px solid red;
 }
 .logo {
@@ -278,8 +277,8 @@ img {
 }
 .doin-ite {
   display: flex;
-  justify-content: space-between; /*
-   gap: 24px;*/
+  justify-content: space-between;
+  gap: 24px;
 }
 /*
 .doin-item {
