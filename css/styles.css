@@ -231,8 +231,8 @@ img {
 }
 .feature-ul {
   display: flex;
-  gap: 24px;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .visually-hidden {
@@ -248,11 +248,10 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/*
+
 .feature-text {
-  
   width: calc((100% - 3 * 24px) / 4);
-}*/
+}
 
 .feature-strong {
   color: var(--navyblue, #2e2f42);
