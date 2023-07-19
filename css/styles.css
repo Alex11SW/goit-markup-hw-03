@@ -371,19 +371,21 @@ img {
 /*------------------------------------------footer---------------------------------*/
 .foote {
   background-color: var(--navyblue, #2e2f42);
+  padding: 100px 0;
 }
 .foote-div {
 }
 .foote-logo {
   font-family: "Raleway", sans-serif;
-
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--iris);
+
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .foote-logo-web {
   color: var(--iris, #4d5ae5);
