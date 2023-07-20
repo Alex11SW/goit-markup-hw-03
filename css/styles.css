@@ -428,17 +428,19 @@ img {
   justify-content: center;
   align-items: flex-start;
   flex-shrink: 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 .foo-div {
   display: flex;
+  /*
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 24px;*/
 }
 .foo-logo {
   display: inline-flex;
   align-items: flex-start;
   height: 24px;
-
+  margin-right: 76px;
   flex-shrink: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -448,6 +450,10 @@ img {
   text-transform: uppercase;
   color: var(--iris, #4d5ae5);
 }
+.foo-link {
+  padding: 24px 0;
+}
+
 .foo-div-stu {
   justify-content: center;
   color: var(--navyblue, #2e2f42);
@@ -457,6 +463,7 @@ img {
   display: flex;
   list-style: none;
   text-decoration: none;
+  align-items: center;
 }
 .foo-nav-span {
   color: var(--navyblue);
@@ -517,6 +524,7 @@ img {
 }
 .foo-address-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 .foo-mail {
