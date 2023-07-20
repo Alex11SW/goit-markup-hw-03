@@ -561,6 +561,7 @@ img {
   align-items: flex-start;
   width: calc((100% - 96) / 5);
   gap: 24px;
+  margin-bottom: 72px;
 }
 .butt-item {
   display: flex;
@@ -585,6 +586,7 @@ img {
 .butt-item:focus {
   color: var(--white);
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 /*--------------------------------------------list-photo---------------------------------------*/
