@@ -464,10 +464,10 @@ img {
   list-style: none;
   text-decoration: none;
   align-items: center;
-}
+} /*
 .foo-nav-span {
   color: var(--navyblue);
-}
+}*/
 .foo-nav-spc {
   display: flex;
   align-items: flex-start;
@@ -483,6 +483,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .foo-nav-studi:hover,
 .foo-nav-port:hover,
@@ -539,9 +540,15 @@ img {
 }
 /*-------------------------------------------------main------------------------------------------*/
 /*------------------------------------------------section-1-----------------------------------------*/
+.main-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .div-button {
   padding-top: 96px;
   padding-bottom: 72px;
+
   /*
   display: flex;
   align-items: flex-start;
