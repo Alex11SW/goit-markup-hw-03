@@ -597,6 +597,19 @@ img {
   width: calc((100% - 72) / 3);
 }
 
+.photo-item {
+  display: flex;
+  width: 360px;
+  height: 420px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
+}
+
 .photo-container {
   display: flex;
   width: 360px;
