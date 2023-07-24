@@ -33,12 +33,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   background-color: #fff;
-  margin: 0% auto;
-  max-width: 1440px;
 }
 /*----------------------------------header-----------------------*/
 /*--------------------------section----------------------------*/
@@ -48,16 +45,8 @@ body {
 }
 .top-line {
   display: flex;
-  width: 1440px;
   height: 72px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-
-  text-align: center;
   border-bottom: 1px solid #e7e9fc;
-  margin: 0%;
-  margin: 0% auto;
 }
 img {
   display: block;
@@ -76,19 +65,12 @@ img {
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--iris, #4d5ae5);
-  /*
-  display: inline-flex;
-  height: 24px;
-  align-items: center;
-  flex-shrink: 0;
-*/
   margin-right: 76px;
 }
 .logo-web {
@@ -100,12 +82,6 @@ img {
   text-decoration: none;
   align-items: center;
   display: flex;
-  /*
-  width: 1440px;
-  height: 72px;
-  flex-shrink: 0;
-  margin: 0%;
-  */
 }
 
 .text-list {
@@ -118,10 +94,8 @@ img {
   text-align: center;
   list-style: none;
   text-decoration: none;
-
   display: flex;
   height: 48px;
-
   align-items: center;
   gap: 40px;
   flex-shrink: 0;
@@ -135,15 +109,12 @@ img {
   display: flex;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-left: auto;
   align-items: center;
-  /*
-  text-align: center;
-  */
   color: var(--slate, #434455);
   text-decoration: none;
   box-sizing: border-box;
@@ -154,16 +125,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate);
   display: flex;
-
-  /*
-  width: 153px;
-  height: 24px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  */
   margin-left: 0%;
-  gap: 40px;
+
+  font-style: normal;
 }
 .text-add-item {
   margin-right: 40px;
@@ -201,7 +165,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .hero-buttom {
@@ -296,15 +260,6 @@ img {
   justify-content: space-between;
   gap: 24px;
 }
-/*
-.doin-item {
-  width: calc((100% - 48px) / 3);
-}*/
-
-.doin-item-2 {
-}
-.doin-item-3 {
-}
 .doin-img {
   border: 1px solid var(--cornflower, #e7e9fc);
   background: url(<path-to-image>),
@@ -377,8 +332,6 @@ img {
   background-color: var(--navyblue, #2e2f42);
   padding: 100px 0;
 }
-.foote-div {
-}
 .foote-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -391,17 +344,6 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
-/*
-.foote-logo-web {
-  color: var(--iris, #4d5ae5);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-*/
 .foote-logo-stu {
   justify-content: center;
   color: var(--cloud, #f4f4fd);
@@ -419,63 +361,66 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 /*-------------------------------portfolio---------------------------------*/
 /*--------------------------------header------------------------------*/
 .foo {
   display: flex;
-  max-width: 100%;
-  justify-content: center;
-  align-items: flex-start;
-  flex-shrink: 0;
+  height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
 .foo-div {
   display: flex;
-  /*
-  padding-top: 24px;
-  padding-bottom: 24px;*/
 }
 .foo-logo {
-  display: inline-flex;
-  align-items: flex-start;
-  height: 24px;
-  margin-right: 76px;
-  flex-shrink: 0;
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
   font-size: 18px;
+  font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--iris, #4d5ae5);
+  margin-top: 16px;
+  margin-right: 76px;
 }
+.foo-nav-span {
+  color: var(--navyblue, #2e2f42);
+  justify-content: center;
+}
+.foo-nav-spc {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  height: 48px;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
+}
+/*
 .foo-link {
   padding: 24px 0;
-}
+}*/
 
 .foo-div-stu {
   justify-content: center;
   color: var(--navyblue, #2e2f42);
-  font-family: Raleway;
 }
 .foo-nav {
   display: flex;
   list-style: none;
   text-decoration: none;
   align-items: center;
-} /*
-.foo-nav-span {
-  color: var(--navyblue);
-}*/
-.foo-nav-spc {
-  display: flex;
-  align-items: flex-start;
-  list-style: none;
-  text-decoration: none;
-  margin-left: 76px;
-  gap: 40px;
 }
+
 .foo-nav-studi {
   color: var(--navyblue, #2e2f42);
   font-family: "Roboto", sans-serif;
@@ -545,16 +490,6 @@ img {
   padding-bottom: 120px;
 }
 
-.div-button {
-  padding-top: 96px;
-  padding-bottom: 72px;
-
-  /*
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;*/
-}
-
 .butt-list {
   display: flex;
   justify-content: center;
@@ -594,33 +529,17 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  width: calc((100% - 72) / 3);
 }
 
 .photo-item {
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex-shrink: 0;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
 }
 
 .photo-container {
-  display: flex;
   width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
+
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  flex-shrink: 0;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
 }
 
 .butt-div-container {
@@ -656,6 +575,7 @@ img {
 /*---------------------------------------------footer--------------------------------------*/
 .low {
   background-color: var(--navyblue);
+  padding: 100px 0;
 }
 
 .foo-nav-spane {
@@ -669,10 +589,11 @@ img {
 
 .low-text {
   width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-  padding-top: 100px;
+  color: var(--cloud, #f4f4fd);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .foo-logo {
-  padding-bottom: 17px;
+  margin-bottom: 17px;
 }
